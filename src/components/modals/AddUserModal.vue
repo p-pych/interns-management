@@ -53,7 +53,7 @@ export default {
     emits: ['update:showModal', 'user-added'],
     setup(props, { emit }) {
         const handleClose = () => {
-            emit('update:showModal', false); // Ukrywa modal
+            emit('update:showModal', false);
         };
         const formRef = ref<FormInst | null>(null)
         const notification = useNotification()
