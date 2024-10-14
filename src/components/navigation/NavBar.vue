@@ -23,10 +23,7 @@ export default {
     },
     setup() {
         const router = useRouter();
-
-        // Definicja opcji menu
         const menuOptions = ref([
-
             {
                 key: 'interns',
                 icon: '🏠',
